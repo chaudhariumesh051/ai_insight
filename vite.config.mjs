@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://ai-insight-eight.vercel.app'
+      '/api': 'https://ai-insight-eight.vercel.app/submit',
     }
   }
 })
